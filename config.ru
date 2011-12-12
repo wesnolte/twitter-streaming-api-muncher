@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'rack/lobster'
+require 'sinatra'
 
-run Rack::Lobster.new
+run Application::Sinatra
