@@ -19,8 +19,6 @@ class User
   def as_json(option={})
    {
      'user' => {
-       #:twitter_id => self.twitter_id,
-       #:tbitw_id   => self.tbitw_id,
        :name       => self.name,
        :screen_name => self.screen_name,
        :profile_image_url => self.profile_image_url,
